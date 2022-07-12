@@ -1,0 +1,105 @@
+html,
+body,
+input {
+    font-family: arial, sans-serif;
+}
+
+label,
+input {
+    box-sizing: border-box;
+    margin-top: 3px;
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+}
+
+input[type=submit] {
+    background: #188fad;
+    ;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    margin-top: 3px;
+}
+
+select {
+    font-size: 20px;
+    margin: 3px;
+    padding: 7px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#cart {
+    width: 40%;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    background: #188fad;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-gap: 5px;
+}
+
+h4,
+p {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+h4 span,
+span {
+    display: contents;
+    font-size: 21px;
+    font-weight: bold;
+    color: red;
+}
+
+.pCell {
+    background: #188fad;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+.pTxt {
+    padding: 10px;
+    color: #fff;
+}
+
+.pName {
+    font-size: 20 px;
+}
+
+.pSize {
+    font-size: 16px;
+}
+
+.pImg {
+    width: 100%;
+    height: 65%;
+}
+
+.pAdd {
+    width: 100%;
+}
